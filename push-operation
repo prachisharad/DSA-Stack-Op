@@ -1,0 +1,18 @@
+# DSA-Stack-Op
+#include<stdio.h>
+int main()
+{
+   int x, top, arr[5], size=0;
+   if(top==size-1)
+   {
+    printf("stack is full");
+   }
+   else
+   {
+    prinntf("enter the element: ");
+    scanf("%d",&x);
+    top=top+1;
+    arr[top]=x;
+   }
+ return 0;
+ }
